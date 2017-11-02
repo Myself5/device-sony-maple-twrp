@@ -22,7 +22,7 @@ LOCAL_PATH := device/sony/maple
 TARGET_BOOTLOADER_BOARD_NAME := G8141
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := lineage-msm8998-maple_defconfig
+TARGET_KERNEL_CONFIG := aosp_yoshino_maple_defconfig
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=maple
 
