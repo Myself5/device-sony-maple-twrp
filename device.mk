@@ -1,7 +1,7 @@
-LOCAL_PATH := device/sony/lilac
+LOCAL_PATH := device/sony/maple
 
 ### DEVICE INIT
 PRODUCT_PACKAGES += \
-    init.recovery.lilac \
-    init.lilac \
-    ueventd.lilac
+    init.recovery.maple \
+    init.maple \
+    ueventd.maple

@@ -16,15 +16,15 @@
 ### INHERIT FROM YOSHIRO
 -include device/sony/yoshino/BoardConfigPlatform.mk
 
-LOCAL_PATH := device/sony/lilac
+LOCAL_PATH := device/sony/maple
 
 ### BOOTLOADER
-TARGET_BOOTLOADER_BOARD_NAME := G8441
+TARGET_BOOTLOADER_BOARD_NAME := G8141
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := lineage-msm8998-lilac_defconfig
+TARGET_KERNEL_CONFIG := lineage-msm8998-maple_defconfig
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=lilac
+BOARD_KERNEL_CMDLINE += androidboot.hardware=maple
 
 ### PARTITIONS
 # See also /proc/partitions on the device
@@ -38,7 +38,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 23753859072
 
 ### BOOTANIMATION
 # vendor/cm/config/common_full_phone.mk
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 # vendor/cm/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
